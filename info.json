@@ -1,0 +1,12 @@
+{
+  "name": "l9m2-vitalrecovery",
+  "version": "0.3.0",
+  "title": "Vital Recovery",
+  "author": "L9M2",
+  "description": "It's dangerous to go alone!\nTake some medkits!\nFor being stranded on an alien world with your tools on hand you might need some touch up. This mod aims to add some healing options into the game when fish aren't around for aide.",
+  "factorio_version": "1.1",
+  "dependencies": 
+	[
+		"base >= 1.1"
+	]
+}
