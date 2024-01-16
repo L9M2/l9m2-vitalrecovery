@@ -242,6 +242,164 @@ data:extend({
     },
     ignore_tech_cost_multiplier = true,
     order = "a-a-a"
+  },
+  {
+    type = "technology",
+    name = "vitalrecovery-health-boost-1",
+    icon_size = 256, icon_mipmaps = 4,
+    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/health-boost.png",
+    effects =
+    {
+      {
+        type = "character-health-bonus",
+        modifier = 25
+      }
+    },
+    prerequisites = {"medical-science-pack"},
+    unit =
+    {
+      count = 100*1,
+      ingredients =
+      {
+        {"automation-science-pack", 1},{"medical-science-pack", 2}
+      },
+      time = 30
+    },
+    upgrade = true,
+    order = "a-a-b"
+  },
+  {
+    type = "technology",
+    name = "vitalrecovery-health-boost-2",
+    icon_size = 256, icon_mipmaps = 4,
+    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/health-boost.png",
+    effects =
+    {
+      {
+        type = "character-health-bonus",
+        modifier = 25
+      }
+    },
+    prerequisites = {"vitalrecovery-health-boost-1"},
+    unit =
+    {
+      count = 100*2,
+      ingredients =
+      {
+        {"automation-science-pack", 1},{"logistic-science-pack", 1},{"medical-science-pack", 2}
+      },
+      time = 30
+    },
+    upgrade = true,
+    order = "a-a-c"
+  },
+  {
+    type = "technology",
+    name = "vitalrecovery-health-boost-3",
+    icon_size = 256, icon_mipmaps = 4,
+    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/health-boost.png",
+    effects =
+    {
+      {
+        type = "character-health-bonus",
+        modifier = 25
+      }
+    },
+    prerequisites = {"vitalrecovery-health-boost-2"},
+    unit =
+    {
+      count = 100*3,
+      ingredients =
+      {
+        {"automation-science-pack", 1},{"logistic-science-pack", 1},{"medical-science-pack", 2}
+      },
+      time = 30
+    },
+    upgrade = true,
+    order = "a-a-d"
+  },
+  {
+    type = "technology",
+    name = "vitalrecovery-health-boost-4",
+    icon_size = 256, icon_mipmaps = 4,
+    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/health-boost.png",
+    effects =
+    {
+      {
+        type = "character-health-bonus",
+        modifier = 25
+      }
+    },
+    prerequisites = {"vitalrecovery-health-boost-3"},
+    unit =
+    {
+      count = 100*4,
+      ingredients =
+      {
+        {"automation-science-pack", 1},{"logistic-science-pack", 1},{"chemical-science-pack",1},{"medical-science-pack", 2}
+      },
+      time = 30
+    },
+    upgrade = true,
+    order = "a-a-e"
+  },
+  {
+    type = "technology",
+    name = "vitalrecovery-health-boost-5",
+    icon_size = 256, icon_mipmaps = 4,
+    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/health-boost.png",
+    effects =
+    {
+      {
+        type = "character-health-bonus",
+        modifier = 25
+      }
+    },
+    prerequisites = {"vitalrecovery-health-boost-4"},
+    unit =
+    {
+      count = 100*5,
+      ingredients =
+      {
+        {"automation-science-pack", 1},{"logistic-science-pack", 1},{"chemical-science-pack",1},
+        {"utility-science-pack", 1},{"medical-science-pack", 2}
+      },
+      time = 30
+    },
+    upgrade = true,
+    order = "a-a-f"
+  },
+  {
+    type = "technology",
+    name = "vitalrecovery-health-boost-6",
+    icon_size = 256, icon_mipmaps = 4,
+    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/health-boost.png",
+    effects =
+    {
+      {
+        type = "character-health-bonus",
+        modifier = 25
+      }
+    },
+	prerequisites = {"vitalrecovery-health-boost-5", "space-science-pack"},
+    unit =
+    {
+      ingredients =
+      {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"space-science-pack", 1},
+		{"medical-science-pack", 2}
+      },
+      time = 30,
+      count_formula = "100(L-5)+500"
+    },
+    max_level = "infinite",
+    upgrade = true,
+    order = "a-a-g"
   }
 })
 
