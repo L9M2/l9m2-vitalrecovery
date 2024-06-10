@@ -134,7 +134,7 @@ data:extend({
     },
     results=
     {
-      {type="item", name="raw-fish", amount=9}
+      {type="item", name="raw-fish", amount=10}
     },
     subgroup = "fluid-recipes",
     crafting_machine_tint =

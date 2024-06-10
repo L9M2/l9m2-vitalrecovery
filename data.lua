@@ -154,7 +154,7 @@ data:extend({
   {
     type = "technology",
     name = "vital-recovery-small-pure-healthkit-research",
-    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/small_healthkit_research.png",
+    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/small_pure_healthkit_research.png",
     icon_size = 256,
 	icon_mipmaps = 4,
     prerequisites = {"vitaliqueur-research","chemical-science-pack"},
@@ -177,7 +177,7 @@ data:extend({
   {
     type = "technology",
     name = "vital-recovery-medium-pure-healthkit-research",
-    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/medium_healthkit_research.png",
+    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/medium_pure_healthkit_research.png",
     icon_size = 256,
 	icon_mipmaps = 4,
     prerequisites = {"vital-recovery-small-pure-healthkit-research"},
@@ -200,7 +200,7 @@ data:extend({
   {
     type = "technology",
     name = "vital-recovery-big-pure-healthkit-research",
-    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/big_healthkit_research.png",
+    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/big_pure_healthkit_research.png",
     icon_size = 256,
 	icon_mipmaps = 4,
     prerequisites = {"vital-recovery-medium-pure-healthkit-research"},
