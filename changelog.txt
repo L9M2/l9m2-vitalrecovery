@@ -1,11 +1,20 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.1.0
+Version: 1.1.1
 Date: 06. 16. 2024
   Features:
-    - Added option to remove the Medical Science Pack.
-      Doing so will also remove and change the associated technologies.
-      Changes the Health Boost technology requirement to Automation technology.
-      DEFAULT = Unchecked - Does not remove.
+    - Added Tips And Tricks section explaining the new mod option.
+  Changes:
+    - Removed tons of empty whitespace in various files.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 06. 16. 2024
+  Control:
+    - Added option to completely remove the Medical Science Pack.
+      Doing so will also remove and change the associated technologies to require them.
+      Changes the Health Boost technology requirement to Automation technology under such case.
+      DEFAULT = Unchecked
+      Unchecked - Does not remove.
+      Checked - Removes.
   Graphics:
     - Added Vitaliqueur research icon.
     - Added Raw Fish Replication research icon.

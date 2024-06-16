@@ -22,7 +22,9 @@ end
 
 
 
-
+--Note To Self: 
+--Potential Options. How much fish required for various recipes.
+--Other things. Healing Grenade?
 
 
 --Tech!!!

@@ -1,6 +1,5 @@
 data:extend(
     {
-
 		{
     --Default False
     --Disable the Medical Science Pack entirely?

@@ -38,6 +38,20 @@ data:extend(
 		},
 		{
 			type = "tips-and-tricks-item",
+			name = "vitalrecovery-modsettings",
+			tag = "[fluid=vitaliqueur]",
+			order = "b",
+			indent = 1,
+			category = "vitalrecovery",
+			dependencies = {"introduction"},
+			trigger =
+			{
+			type = "time-elapsed",
+			ticks = 60 * 60 * 4 -- 4 minutes
+			}
+		},
+		{
+			type = "tips-and-tricks-item",
 			name = "vitalrecovery-solid-vitaliqueur",
 			tag = "[item=solid-vitaliqueur]",
 			order = "c",
