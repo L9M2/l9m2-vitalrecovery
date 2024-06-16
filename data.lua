@@ -2,19 +2,23 @@
 require("prototypes.l9m2-vitalrecovery.item") --Item Data
 require("prototypes.l9m2-vitalrecovery.recipe") --Recipe Data
 require("prototypes.l9m2-vitalrecovery.tips-and-tricks") --Tip Data
+
+
 --TODO: Research Data
 --require("prototypes.l9m2-vitalrecovery.technology")
+local science_disabled = settings.startup["l9m2-vital-recovery-disable-medical-science"].value
 
 
+if science_disabled == false then
 local labPacks = data.raw["lab"]["lab"]
-if labPacks then
-	--Simplier, Can be added anywhere (1 is beginning)
-	table.insert(data.raw["lab"]["lab"].inputs, 2, "medical-science-pack")
-	--Messier adds to the end of th list
-	--local itemSet = labPacks["inputs"]
-	--itemSet[#itemSet + 1] = "medical-science-pack"
+  if labPacks then
+	  --Simplier, Can be added anywhere (1 is beginning)
+	  table.insert(data.raw["lab"]["lab"].inputs, 2, "medical-science-pack")
+	  --Messier adds to the end of th list
+	  --local itemSet = labPacks["inputs"]
+	  --itemSet[#itemSet + 1] = "medical-science-pack"
+  end
 end
-
 
 
 
@@ -23,13 +27,14 @@ end
 
 --Tech!!!
 --Mainly because I didn't want to create yet another file, but this may change.
-data:extend({
+data:extend(
+{
   {
     type = "technology",
     name = "vital-recovery-small-healthkit-research",
     icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/small_healthkit_research.png",
     icon_size = 256,
-	icon_mipmaps = 4,
+	  icon_mipmaps = 4,
     prerequisites = {"automation","medical-science-pack"},
     effects = {
       {
@@ -104,7 +109,7 @@ data:extend({
   {
     type = "technology",
     name = "vitaliqueur-research",
-    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/big_healthkit_research.png",
+    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/vitaliqueur.png",
     icon_size = 256,
 	icon_mipmaps = 4,
     prerequisites = {"vital-recovery-big-healthkit-research","oil-processing"},
@@ -131,7 +136,7 @@ data:extend({
   {
     type = "technology",
     name = "vitaliqueur-raw-fish-production",
-    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/big_healthkit_research.png",
+    icon = "__l9m2-vitalrecovery__/graphics/technology/l9m2-vitalrecovery/fish_replication.png",
     icon_size = 256,
 	icon_mipmaps = 4,
     prerequisites = {"vitaliqueur-research"},
@@ -402,7 +407,6 @@ data:extend({
     order = "a-a-g"
   }
 })
-
 
 --Effect type to consider as infinite research:
 --character-health-bonus

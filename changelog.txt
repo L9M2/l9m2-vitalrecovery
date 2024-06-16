@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 06. 16. 2024
+  Features:
+    - Added option to remove the Medical Science Pack.
+      Doing so will also remove and change the associated technologies.
+      Changes the Health Boost technology requirement to Automation technology.
+      DEFAULT = Unchecked - Does not remove.
+  Graphics:
+    - Added Vitaliqueur research icon.
+    - Added Raw Fish Replication research icon.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 06. 09. 2024
   Info:
@@ -13,6 +24,6 @@ Date: 06. 09. 2024
       This should jumpstart the process a bit faster.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: 24. 12. 2012
+Date: 01. 16. 2024
   Major Features:
-    - Initial release.
+    - Initial release. For real!
