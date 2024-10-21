@@ -305,7 +305,7 @@ data:extend({
     type = "fluid",
     name = "vitaliqueur",
     default_temperature = 25,
-    heat_capacity = "0.1KJ",
+    heat_capacity = "0.1kJ",
     base_color = {r=0.15, g=0.82, b=0.15},
     flow_color = {r=0.31, g=0.95, b=0.31},
     icon = "__l9m2-vitalrecovery__/graphics/icons/l9m2-vitalrecovery/fluid-vitaliqueur.png",

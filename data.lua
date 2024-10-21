@@ -41,11 +41,11 @@ data:extend(
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "small-healthkit-recipe"
+        recipe = "small-healthkit"
       },
       {
         type = "unlock-recipe",
-        recipe = "solid-vitaliqueur-recipe-hand"
+        recipe = "solid-vitaliqueur-hand"
       }
     },
     unit = {
@@ -68,7 +68,7 @@ data:extend(
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "medium-healthkit-recipe" -- Unlock the healing item recipe when the research is completed
+        recipe = "medium-healthkit" -- Unlock the healing item recipe when the research is completed
       }
     },
     unit = {
@@ -91,11 +91,11 @@ data:extend(
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "big-healthkit-recipe" -- Unlock the healing item recipe when the research is completed
+        recipe = "big-healthkit" -- Unlock the healing item recipe when the research is completed
       },
       {
         type = "unlock-recipe",
-        recipe = "solid-vitaliqueur-recipe"
+        recipe = "solid-vitaliqueur"
       }
     },
     unit = {
@@ -118,11 +118,11 @@ data:extend(
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "vitaliqueur-recipe"
+        recipe = "vitaliqueur"
       },
       {
         type = "unlock-recipe",
-        recipe = "vitaliqueur-solid-to-fluid-recipe"
+        recipe = "vitaliqueur-solid-to-fluid"
       }
     },
     unit = {
@@ -145,7 +145,7 @@ data:extend(
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "vitaliqueur-raw-fish-recipe"
+        recipe = "vitaliqueur-raw-fish"
       }
     },
     unit = {
@@ -168,7 +168,7 @@ data:extend(
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "small-pure-healthkit-recipe"
+        recipe = "small-pure-healthkit"
       }
     },
     unit = {
@@ -191,7 +191,7 @@ data:extend(
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "medium-pure-healthkit-recipe"
+        recipe = "medium-pure-healthkit"
       }
     },
     unit = {
@@ -214,7 +214,7 @@ data:extend(
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "big-pure-healthkit-recipe"
+        recipe = "big-pure-healthkit"
       }
     },
     unit = {
@@ -237,7 +237,7 @@ data:extend(
     effects = {
       {
         type = "unlock-recipe",
-        recipe = "medical-science-pack-recipe"
+        recipe = "medical-science-pack"
       }
     },
     unit = {

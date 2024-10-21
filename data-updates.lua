@@ -21,6 +21,6 @@ data.raw["technology"]["vitalrecovery-health-boost-6"].unit.ingredients = {{"aut
 data.raw["technology"]["medical-science-pack"].hidden = true --Hide Tech
 data.raw["technology"]["medical-science-pack"].enabled = false --Disable Tech
 data.raw["technology"]["medical-science-pack"] = nil --Just nil it
-data.raw.recipe["medical-science-pack-recipe"] = nil --Just nil it
+data.raw.recipe["medical-science-pack"] = nil --Just nil it
 data.raw.tool["medical-science-pack"] = nil --Just nil it
 end

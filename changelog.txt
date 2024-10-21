@@ -1,4 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 10. 21. 2024
+  Major Features:
+    - Updated to Factorio 2.0
+  Ease of use:
+    - Updated all recipe prototype names to be the same as the item prototypes.
+      This is to insure ease of readability with the Factoriopedia and reduce clutter.
+  Info:
+    - Removed Tips and Tricks. (For Now)
+      The Tips and Tricks screen was reworked for 2.0 and most information is displayed on the Factoriopedia.
+    - Will update corresponding Item Entries (I.E. Fish) in regards to the new system at a future date.
+    - Future Compatibility with Space Age and Quality system at a future date.
+  Translation:
+    - Minor Grammar and Spelling.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 06. 16. 2024
   Features:

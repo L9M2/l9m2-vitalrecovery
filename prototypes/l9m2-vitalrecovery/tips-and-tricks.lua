@@ -1,4 +1,5 @@
 local simulations = require("prototypes.l9m2-vitalrecovery.tips-and-tricks-simulations")
+--[[
 data:extend(
 	{
 		{
@@ -96,3 +97,4 @@ data:extend(
 		}
 	}
 )
+--]]
