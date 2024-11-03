@@ -68,6 +68,7 @@ data:extend({
 		type = "recipe",
 		name = "solid-vitaliqueur-hand",
 		energy_required = 10,
+		factoriopedia_description = {"factoriopedia-description.solid-vitaliqueur-hand"},
 		enabled = false,
 		ingredients = {
 			{type = "item", name = "iron-stick", amount = 10},
@@ -126,7 +127,8 @@ data:extend({
       secondary = {r = 0.302, g = 0.851, b = 0.169, a = 1.000}, -- #4dd92bff
       tertiary = {r = 0.200, g = 0.761, b = 0.302, a = 1.000}, -- #33c24dff
       quaternary = {r = 0.031, g = 1.000, b = 0.020, a = 1.000}, -- #08ff05ff
-    }
+    },
+    icon = "__l9m2-vitalrecovery__/graphics/icons/l9m2-vitalrecovery/solid-to-fluid-vitaliqueur.png"
   },
   {
     type = "recipe",
@@ -150,7 +152,8 @@ data:extend({
       secondary = {r = 0.302, g = 0.851, b = 0.169, a = 1.000}, -- #4dd92bff
       tertiary = {r = 0.200, g = 0.761, b = 0.302, a = 1.000}, -- #33c24dff
       quaternary = {r = 0.031, g = 1.000, b = 0.020, a = 1.000}, -- #08ff05ff
-    }
+    },
+    icon = "__l9m2-vitalrecovery__/graphics/icons/l9m2-vitalrecovery/more-fish.png"
   },
 	{
 		type = "recipe",

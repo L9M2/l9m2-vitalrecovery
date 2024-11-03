@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 11. 03. 2024
+  Translation:
+    - Added missing recipe names and descriptions.
+  Info:
+    - Added more information in the Factoriopedia.
+  Graphics:
+    - Added recipe icons to some recipes.
+---------------------------------------------------------------------------------------------------
 Version: 1.2.0
 Date: 10. 21. 2024
   Major Features:
